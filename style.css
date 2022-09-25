@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Big Shoulders Display", cursive;
+  box-sizing: border-box;
+}
+.main-text {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 55px;
+  color: #151515;
+}
+.modern-text{
+  color: white;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 2px;
+  margin: 0 0 32px 0;
+  color: #444444;
+}
+.href-div a {
+  background-color: #151515;
+  color: white;
+  text-align: center;
+  padding: 24px 32px 24px 35px;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 3.64px;
+  text-decoration: none;
+}
+.icon-div {
+  background-color: #d5966c;
+  width: 56px;
+  margin: 0;
+}
+.href-div,
+.icon {
+  display: flex;
+}
+.icon {
+  height: 20px;
+}
+i {
+  color: #151515;
+}
+.icon-one {
+  margin: -2px 15px 0px 15px;
+}
+.mobile-resp{
+  margin-left: 0;
+}
+.desktop-img,
+.tablet-img,
+.black-div-desktop {
+  display: none;
+}
+.card-text {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 45px;
+  color: #151515;
+}
+.mobile-img {
+  width: 100%;
+}
+.article-for-text {
+  padding: 0 5% 0 5%;
+}
+.article-for-margin {
+  padding: 30% 5% 0 5%;
+}
+.black-cont-one {
+  height: 30%;
+  background-color: #151515;
+  padding: 48px 24px 50px 24px;
+}
+.black-cont-one h1 {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  color: white;
+  padding-bottom: 0;
+  margin: 0;
+}
+.black-cont-one p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: white;
+}
+.black-cont-two {
+  background-color: #151515;
+  padding: 32px;
+  color: white;
+  margin-top: 120px;
+}
+.black-cont-two p,
+h3,
+.black-div p,
+h1 {
+  color: white;
+}
+.final-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+}
+.color-gold {
+  background-color: #d5966c;
+  margin-top: 0;
+}
+.color-gold p,
+h3 {
+  color: #151515;
+}
+.map-cont-one {
+  height: 50%;
+}
+.black-div h1 {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 55px;
+}
+.black-div {
+  background-color: #151515;
+  padding: 16px;
+}
+.black-div h3 {
+  color: #d5966c;
+  font-size: 32px;
+  line-height: 32px;
+}
+.black-div p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.black-cont-one{
+  overflow: hidden;
+}
+
+@media screen and (min-width: 775px) {
+  .tablet-img {
+    display: block;
+    min-width: 50%;
+  }
+  .responsive{
+    width: 50%;
+  }
+  .img-cont{
+    width: 50%;
+
+  }
+  .final-text {
+    width: 24vw;
+    margin: 0 14vw 0 16vw;
+  }
+  .icon {
+    height: 20px;
+  }
+  .mobile-img {
+    display: none;
+  }
+  header,
+  .container-two,
+  .img-main-cont,
+  .black-cont-two,
+  .black-div {
+    display: flex;
+  }
+  .article-for-text {
+    margin: 10% 0 0 -9%;
+  }
+  .container-two img {
+    order: 2;
+    width: 40%;
+    margin-left: 10%;
+  }
+  .container-two div {
+    order: 1;
+    width: 30%;
+  }
+  .article-for-margin {
+    padding: 15% 0 10% 10%;
+  }
+  .tablet-resp {
+    width: 100%;
+    height: 100%;
+  }
+  .resp-img {
+    height: 100%;
+    width: 96%;
+  }
+  .img-main-cont {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .two-card {
+    height: 100%;
+    margin-left: 0%;
+    padding: 0;
+    width: 40%;
+  }
+  .two-card img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .black-cont-one {
+    margin-top: 3%;
+    min-height: 47vh;
+
+  }
+  .modern-text {
+    margin: 0;
+    font-size: 40px;
+  }
+  .map {
+    width: 100%;
+  }
+  .black-div div {
+    margin-left: 30%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .black-div-desktop {
+    display: block;
+    width: 100%;
+    background-color: #151515;
+  }
+  .black-cont-one{
+    min-height: 76vh;
+  }
+  .modern-text{
+    font-size: 50px;
+  }
+  
+  .main-text {
+    margin-left: -196%;
+  }
+  .desktop-text {
+    color: white;
+  }
+  .article-for-text {
+    margin-left: -17%;
+  }
+  .img-cont {
+    height: 100%;
+  }
+  .black-cont-two {
+    height: 20vh;
+    padding:80px 165px 80px 165px
+  }
+  .final-text {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+}
