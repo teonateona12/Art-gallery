@@ -10,7 +10,7 @@ body {
   line-height: 55px;
   color: #151515;
 }
-.modern-text{
+.modern-text {
   color: white;
 }
 
@@ -55,7 +55,7 @@ i {
 .icon-one {
   margin: -2px 15px 0px 15px;
 }
-.mobile-resp{
+.mobile-resp {
   margin-left: 0;
 }
 .desktop-img,
@@ -126,27 +126,12 @@ h3 {
 .map-cont-one {
   height: 50%;
 }
-.black-div h1 {
-  font-weight: 900;
-  font-size: 50px;
-  line-height: 55px;
-}
+
 .black-div {
   background-color: #151515;
   padding: 16px;
 }
-.black-div h3 {
-  color: #d5966c;
-  font-size: 32px;
-  line-height: 32px;
-}
-.black-div p {
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 300;
-  letter-spacing: 2px;
-}
-.black-cont-one{
+.black-cont-one {
   overflow: hidden;
 }
 
@@ -155,12 +140,11 @@ h3 {
     display: block;
     min-width: 50%;
   }
-  .responsive{
+  .responsive {
     width: 50%;
   }
-  .img-cont{
+  .img-cont {
     width: 50%;
-
   }
   .final-text {
     width: 24vw;
@@ -220,7 +204,6 @@ h3 {
   .black-cont-one {
     margin-top: 3%;
     min-height: 47vh;
-
   }
   .modern-text {
     margin: 0;
@@ -232,6 +215,37 @@ h3 {
   .black-div div {
     margin-left: 30%;
   }
+  i {
+    font-size: 40px;
+  }
+  .color-gold,
+  .black-div {
+    padding: 26px;
+    height: 35vh;
+  }
+  .color-gold h3 {
+    margin: 0;
+    font-size: 60px;
+  }
+  .color-gold p {
+    font-size: 23px;
+  }
+  .black-div h1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .black-div h3 {
+    color: #d5966c;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .black-div p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
 }
 @media screen and (min-width: 1440px) {
   .black-div-desktop {
@@ -239,13 +253,13 @@ h3 {
     width: 100%;
     background-color: #151515;
   }
-  .black-cont-one{
+  .black-cont-one {
     min-height: 76vh;
   }
-  .modern-text{
+  .modern-text {
     font-size: 50px;
   }
-  
+
   .main-text {
     margin-left: -196%;
   }
@@ -260,11 +274,15 @@ h3 {
   }
   .black-cont-two {
     height: 20vh;
-    padding:80px 165px 80px 165px
+    padding: 80px 165px 80px 165px;
   }
   .final-text {
     font-size: 22px;
     line-height: 32px;
   }
-
+  .color-gold,
+  .map-tablet {
+    padding: 70px;
+    height: 30vh;
+  }
 }
